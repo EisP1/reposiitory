@@ -1,0 +1,219 @@
+html{
+  scroll-behavior: smooth;
+}
+#baslik{
+  color: #E7E4ED;
+  font-family: 'Pattaya', sans-serif;
+  text-align: center;
+  line-height: 70px;
+  align-content: center;
+  font-size: 70px;
+  position: relative;
+  top: -110px;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 1282px;
+  padding: 42px;
+  margin-left: 0px;
+}
+body{
+  background-color: #20425c;
+}
+.ilksayfa{
+  position: absolute;
+  top: 50px;
+  left: auto;
+}
+#kelime{
+  position: relative;
+  color: #E7E4ED;
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  font-size: 70px;
+  top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#kwc{
+  color: #E7E4ED;
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  position: relative;
+  padding-top: 10px;
+  height: 110px;
+  margin: 10px -15px;
+  left: -5px;
+  right: -15px;
+
+}
+#ozelkelime{
+  color: #DCE2E8;
+}
+#giriscizgi{
+  position: relative;
+  top: -27px;
+}
+.tanitim-kutusu{
+  background-color: #20425c;
+  text-align: center;
+  position: relative;
+  top:  -180px;
+  height: 205px;
+  padding: 0px;
+  color: black;
+  font-family: 'Noto Serif', serif;
+  font-size:x-large;
+}
+.tanitim{
+  color: #E7E4ED;
+}
+#nedir{
+  color: #E7E4ED;
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  font-size: 50px;
+}
+#kayit-kutusu{
+  background-color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  align-items: center;
+  margin: 75px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 350px;
+  width: 490px;
+  text-align: center;
+  border: 2px solid #E3E1E1;
+
+}
+.labeller{
+  font-size: large;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  text-align: left;
+}
+label {
+  margin-bottom: 15px;
+  width:auto;
+  clear:left;
+  text-align:right;
+  padding-right:15px;
+
+}
+input, label {
+  float:left;
+}
+.ikincilabel label{
+  padding-right: 22px;
+}
+.ucunculabel label{
+  padding-right: 53px;
+}
+.dordunculabel label{
+  padding-right: 42px;
+}
+#sifrekontrolu{
+  position: absolute;
+  left: 200px;
+  top: 270px;
+}
+input[type= button]{
+  margin-left: 6px;
+  height: 35px;
+  width: 68px;
+  cursor: pointer;
+}
+input[type= text]{
+  height: 30px;
+  margin-bottom: 5px;
+  font-weight: 500;
+
+}
+input[type= password]{
+  height: 30px;
+  margin-bottom: 5px;
+}
+input[type= email]{
+  height: 30px;
+  margin-bottom: 5px;
+}
+.sifrekutulari{
+  margin-left: 1px;
+
+}
+.sifrebuttons{
+  background-color: #20425c;
+  color:whitesmoke;
+  font-family: serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 16px;
+  border:darkslategray solid 1px;
+}
+#but1{
+  position: absolute;
+  top: 219px;
+  right: 22px;
+}
+#kayitolbut{
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 7px;
+  background-color: #20425c;
+  color:whitesmoke;
+  font-family: serif;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight:500;
+  display: inline-block;
+  width: 177px;
+  border:darkslategray solid 1px;
+  position: absolute;
+  top: 298px;
+  right: 96px;
+}
+#giris-kutusu{
+  background-color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  align-items: center;
+  margin: 75px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 350px;
+  width: 490px;
+  text-align: center;
+  border: 2px solid #E3E1E1;
+}
+#but3{
+  border:darkslategray solid 1px;
+}
+.kullaniciadibolumu{
+  margin-top: 65px;
+  margin-bottom: 5px;
+}
+.besincilabel{
+  position: absolute;
+  top: 203px;
+
+}
+#giris-sifresi{
+  margin-left: 74px;
+}
+#girisbut{
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 7px;
+  background-color: #20425c;
+  color:whitesmoke;
+  font-family: serif;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight:500;
+  width: 177px;
+  display: inline-block;
+  border:darkslategray solid 1px;
+  position: absolute;
+  top: 265px;
+  right: 102px;
+}  
